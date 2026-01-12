@@ -352,12 +352,12 @@ foreach ($bad_patterns as $pattern) {
 
     .verse-block {
         margin-bottom: 25px;
-        border-left: 4px solid #ff7b32; /* Orange accent line */
+        border-left: 4px solid #ff7b32; 
         padding-left: 15px;
     }
 
     .verse-text {
-        font-family: 'Georgia', serif; /* Serif font looks more "Biblical" */
+        font-family: 'Georgia', serif; 
         font-style: italic;
         font-size: 1.1rem;
         color: #555;
@@ -372,7 +372,7 @@ foreach ($bad_patterns as $pattern) {
         letter-spacing: 1px;
     }
 
-    /* Update Buttons area to fit nicely below */
+
     .action-area {
         margin-top: 50px;
     }
@@ -390,8 +390,8 @@ foreach ($bad_patterns as $pattern) {
             text-align: center;
         }
         .verse-block {
-            border-left: none; /* Remove side border on mobile */
-            border-bottom: 2px solid #ff7b32; /* Put border on bottom instead */
+            border-left: none; 
+            border-bottom: 2px solid #ff7b32; /
             padding-left: 0;
             padding-bottom: 15px;
         }
@@ -424,10 +424,10 @@ foreach ($bad_patterns as $pattern) {
 
 .gallery-item img {
     width: 100%;
-    max-width: 100%;    /* <--- This overrides the global 35% limit */
-    height: 300px;      /* Increased height so faces fit better */
-    object-fit: cover;  /* Ensures the image fills the box without stretching */
-    object-position: top center; /* Focuses on faces/heads instead of chests */
+    max-width: 100%;    
+    height: 300px;     
+    object-fit: cover;  
+    object-position: top center; 
     display: block;
 }
 
@@ -990,4 +990,5 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 <!--End of Tawk.to Script-->
 </body>
+
 </html>
